@@ -14,7 +14,7 @@ const Calculator = () => {
 
   const handleEqual = () => {
     try {
-      const result = eval(input); // Note: eval() can be harmful in production, consider safer alternatives.
+      const result = eval(input); 
       setInput(result.toString());
     } catch (error) {
       setInput('Error');
